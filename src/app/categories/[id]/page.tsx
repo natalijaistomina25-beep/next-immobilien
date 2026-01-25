@@ -1,3 +1,4 @@
+import CategoryCarousel from "@/app/components/category-carousel";
 import Link from "next/link";
 import { FC } from "react";
 
@@ -34,7 +35,10 @@ export default async function CategoryPage({
       >
         Back to Categories
       </Link>
+
+      <CategoryCarousel images={[category.image]} />
       <h1 className="text-3xl font-bold mb-6 text-center">{category.name}</h1>
+
       <img
         src={category.image}
         alt={category.name}
