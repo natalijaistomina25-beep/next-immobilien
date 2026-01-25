@@ -12,4 +12,4 @@ export interface Product {
   updatedAt: string;
 }
 
-export { Category };
+export type { Category };
