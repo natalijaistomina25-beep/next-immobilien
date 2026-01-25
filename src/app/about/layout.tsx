@@ -4,8 +4,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <div className="p-8">
-      <div className="p-3 text-fuchsia-800 font-bold">Check out the new and ultimate version of our product</div>
+    <div >
+      <div className="p-8 text-fuchsia-800 font-bold bg-pink-400 h-30  text-4xl flex justify-center items-center">
+        Check out the new and ultimate version of our product
+        </div>
       {children}
     </div>
   );

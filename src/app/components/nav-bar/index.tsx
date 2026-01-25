@@ -5,6 +5,9 @@ const links = [
   { href: "/career", text: "Career" },
   { href: "/learning-grid", text: "Grids" },
   { href: "/help", text: "FAQ" },
+  { href: "/users", text: "Users" },
+  { href: "/products", text: "Products" },
+  { href: "/categories", text: "Categories" },
 ];
 
 const generalLinks = links.map(({ href, text }) => (
@@ -14,7 +17,7 @@ const generalLinks = links.map(({ href, text }) => (
 ));
 
 export default function NavBar() {
-  return <nav className="w-full flex justify-center gap-2 my-4">
-    {generalLinks}
-  </nav>;
+  return (
+    <nav className="w-full flex justify-center gap-2 my-4">{generalLinks}</nav>
+  );
 }

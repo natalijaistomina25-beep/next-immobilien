@@ -1,7 +1,7 @@
 export default function Me() {
   return (
     <div
-      className="min-h-screen flex items-center justify-center
+      className="px-20 py-10 min-h-screen flex items-center justify-center
                 bg-linear-to-r from-pink-400 via-purple-500 to-indigo-500 animate-pulse"
     >
       <div className="max-w-md w-full p-6 bg-white bg-opacity-90 rounded-xl shadow-md text-center">
@@ -11,3 +11,12 @@ export default function Me() {
     </div>
   );
 }
+
+{/* <h2>John Smith</h2>
+      <Image src={avatarUrl} alt="avatar" width={200} height={200} />
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium,
+        maiores alias nam necessitatibus dolorum dicta quaerat, minima aliquid
+        magnam architecto possimus tempore similique ut dolores repellat autem
+        id laudantium quisquam!
+      </p> */}
