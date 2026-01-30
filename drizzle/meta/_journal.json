@@ -8,6 +8,27 @@
       "when": 1769426924169,
       "tag": "0000_bouncy_carnage",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1769590884086,
+      "tag": "0001_giant_skin",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1769682958926,
+      "tag": "0002_steep_speedball",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1769686993542,
+      "tag": "0003_blushing_texas_twister",
+      "breakpoints": true
     }
   ]
 }

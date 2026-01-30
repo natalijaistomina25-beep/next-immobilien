@@ -35,4 +35,11 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
-
+// 1. создадим schema для db
+// 2. сгенерировать миграцию
+// 3. провести миграции - мигрировать 
+// 4. server action для добавления 
+// 5. серверный или клиентский компонент form, где используется серверное действие
+// 6. страница где отображаются 
+// 7. серверное действие для удаления
+// 8. добавить кнопку удаления с использованием server action
